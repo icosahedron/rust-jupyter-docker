@@ -30,3 +30,11 @@ You can set a new password using these [instructions](https://jupyter-notebook.r
 (I set up a password because I didn't want to have to know the token to be able to use my notebooks.)
 
 A sample notebook is available in the examples subdirectory.  More will be added later.
+
+## Virtual Hosting
+
+Putting this and other containers behind a reverse proxy can make things a bit cleaner and easier to reach from
+the outside world.
+
+See [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) docker container project on Github for an easy way to 
+put your containers behind a reverse proxy.
