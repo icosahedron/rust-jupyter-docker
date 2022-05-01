@@ -25,9 +25,11 @@ and attach to the image with
 docker exec -it rust-deeplearning /bin/bash
 ```
 
-The password for the site is by default "Deep Learning From Scratch" contained in the `jupyter_notebook_config.json` file.  
-You can set a new password using these [instructions](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html).  
-(I set up a password because I didn't want to have to know the token to be able to use my notebooks.)
+The password for the site is by default "Deep Learning From Scratch" contained in the 
+`jupyter_notebook_config.json` file. You can set a new password using these 
+[instructions](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html). 
+(I set up a password because I didn't want to have to know the token to be able to use 
+my notebooks.)
 
 A sample notebook is available in the examples subdirectory.  More will be added later.
 
